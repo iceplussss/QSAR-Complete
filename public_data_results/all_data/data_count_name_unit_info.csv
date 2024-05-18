@@ -1,0 +1,27 @@
+property,data count,short name,units,description
+CL_microsome_human,5218,"CL microsome, human",log10(mL/min/kg),human microsomal clearance
+CL_microsome_mouse,663,"CL microsome, mouse",log10(mL/min/kg),mouse microsomal clearance
+CL_microsome_rat,1798,"CL microsome, rat",log10(mL/min/kg),rat microsomal clearance
+CL_total_dog,284,"CL total, dog",log10(mL/min/kg),dog total body clearance
+CL_total_human,741,"CL total, human",log10(mL/min/kg),human total body clearance
+CL_total_monkey,129,"CL total, monkey",log10(mL/min/kg),monkey total body clearance
+CL_total_rat,387,"CL total, rat",log10(mL/min/kg),rat total body clearance
+CYP2C8_inhibition,328,CYP2C8,log10(nMolar IC50),CYP2C8 inhibition IC50
+CYP2C9_inhibition,2374,CYP2C9,log10(nMolar IC50),CYP2C9 inhibition IC50
+CYP2D6_inhibition,2539,CYP2D6,log10(nMolar IC50),CYP2D6 inhibition IC50
+CYP3A4_inhibition,4403,CYP3A4,log10(nMolar IC50),CYP3A4 inhibition IC50
+Dog_fraction_unbound_plasma,179,"Fu,p, dog",log10(fraction unbound),dog fraction unbound in plasma
+Human_fraction_unbound_plasma,2717,"Fu,p, human",log10(fraction unbound),human fraction unbound in plasma
+Monkey_fraction_unbound_plasma,88,"Fu,p, monkey",log10(fraction unbound),monkey fraction unbound in plasma
+Rat_fraction_unbound_plasma,237,"Fu,p, rat",log10(fraction unbound),rat fraction unbound in plasma
+Papp_Caco2,6457,Papp,log10(10^-6 cm/s),Caco-2 apparent permeability
+Pgp_human,2073,"PGP, human",log10(efflux ratio),"human P-glycoprotein efflux ratio. The efflux ratio was calculated as ER = Papp (B -> A)/Papp (A -> B), where Papp is the apparent permeability coefficient across the cell monolayer, B -> A is the basolateral-to-apical direction, and A -> B is the apical-tobasolateral."
+hERG_binding,5108,hERG,log10(nMolar IC50),binding affinity (IC50) to human hERG potassium (K+) channel
+LogD_pH_7.4,4190,LogD pH7.4,log10(M/M),distribution coefficient between octanol and water ([c]_octanol/[c]_water) at pH 7.4
+kinetic_logSaq,74895,Kinetic aqueous logS,log10(M),kinetic solubility in water
+thermo_logSaq,11804,Thermo aqueous logS,log10(M),thermodynamic solubility in water
+VDss_dog,274,"Vd, dog",log10(L/kg),dog volume of distribution
+VDss_human,751,"Vd, human",log10(L/kg),human volume of distribution
+VDss_monkey,125,"Vd, monkey",log10(L/kg),monkey volume of distribution
+VDss_rat,351,"Vd, rat",log10(L/kg),rat volume of distribution
+total_compounds,114112,-,-,-
