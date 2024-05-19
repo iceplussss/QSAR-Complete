@@ -1,8 +1,19 @@
 # QComp
 A robust, interpretable, non-iterative data completion framework for sparse datasets in drug discovery.
 
+## Dependencies:
+pytorch>=2.0.1
+deepchem>=2.7.1
+numpy
+scipy
+pandas
+sklearn
+tensorboard
+matplotlib
 
-## 
+## Run
+(1) Download and decompress the dataset from https://zenodo.org/doi/10.5281/zenodo.11215174
+(2) Execute ''python main.py''
 
 ## Public ADMET datasets and QSAR results
 The ADMET data compiled from various public sources and the corresponding Chemprop multitask model predictions are located under `public_data_results`. The dataset is randomly split to 80 % training and 20 % test sets using 5-folds. Details on the files under `public_data_results`:

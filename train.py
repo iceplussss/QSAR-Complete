@@ -3,7 +3,7 @@ import torch as th
 import numpy as np
 import matplotlib.pyplot as plt
 from utilities import th2np
-
+from time import time
 
 class trainer:
 
@@ -61,6 +61,7 @@ class trainer:
         qsar_score_list = []
 
         for target_idx in np.arange(len(feature_name_list)):
+            t0 = time()
             filter_notna = ~th.isnan(testset.exp_data[:,target_idx])
 
             test_exp_data = testset.exp_data[filter_notna]
@@ -81,6 +82,8 @@ class trainer:
 
             impute_score_list.append(metric(exp_target, imputed_target))
             qsar_score_list.append(metric(exp_target, qsar_target))
+            t1 = time()
+            print("impute {}th feature: {}s".format(target_idx, t1-t0))
 
         if flag_fig:
             fig, ax = plt.subplots(1,1,figsize=(10,10))
