@@ -18,11 +18,6 @@ tensorboard
 
 matplotlib
 
-## Run
-(1) Download and decompress the dataset from https://zenodo.org/doi/10.5281/zenodo.11215174
-
-(2) Execute ''python main.py''
-
 ## Public ADMET datasets and QSAR results
 The ADMET data compiled from various public sources and the corresponding Chemprop multitask model predictions are located under `public_data_results`. The dataset is randomly split to 80 % training and 20 % test sets using 5-folds. Details on the files under `public_data_results`:
 - `all_data`: `public_admet_data_all.csv` contains all data for 25 different ADMET assays along with SMILES strings and molecular weights of compounds. `data_count_name_unit_info.csv` contains detailed information and unit of each ADMET assay. The dataset is very sparse. `data_overlap_count_between_prop.csv` shows the number of compound overlaps between each pair of assays. `spearman_corr_heatmap.pdf` shows the Spearman correlation heatmap generated for the assay pair that has at least 10 overlapping compounds.
