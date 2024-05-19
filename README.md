@@ -3,16 +3,24 @@ A robust, interpretable, non-iterative data completion framework for sparse data
 
 ## Dependencies:
 pytorch>=2.0.1
+
 deepchem>=2.7.1
+
 numpy
+
 scipy
+
 pandas
+
 sklearn
+
 tensorboard
+
 matplotlib
 
 ## Run
 (1) Download and decompress the dataset from https://zenodo.org/doi/10.5281/zenodo.11215174
+
 (2) Execute ''python main.py''
 
 ## Public ADMET datasets and QSAR results
