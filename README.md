@@ -1,5 +1,6 @@
 # QSAR-Complete (QComp)
 A robust, interpretable, non-iterative data completion framework for sparse datasets in drug discovery.
+
 <img src="https://github.com/iceplussss/QSAR-Complete/assets/21097054/34385882-2f7b-47a4-a4e3-6f617255b8ab" width="550">
 
 ## Install dependencies
